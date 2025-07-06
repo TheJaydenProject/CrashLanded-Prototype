@@ -7,8 +7,6 @@ using System.Collections.Generic;
 /// Also displays a visual overlay and stops damage when the player exits or dies.
 /// </summary>
 /*
- * Author: Jayden Wong
- * Date: 16/06/2025
  * Description: This script detects when the player enters water using Unity Physics triggers.
  * It deals periodic damage while the player remains inside and shows a blue screen overlay.
  * Damage is stopped when the player exits or dies, and overlays are cleaned up accordingly.
