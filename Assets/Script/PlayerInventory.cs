@@ -15,7 +15,7 @@ public class PlayerInventory : MonoBehaviour
     /// Whether the player has collected the repair module.
     /// Used to end game.
     /// </summary>
-    public bool hasKeycard = false;
+    public bool hasRepairModule = false;
 
     /// <summary>
     /// Whether the player has collected the gas mask.
@@ -27,9 +27,9 @@ public class PlayerInventory : MonoBehaviour
     /// Grants the player a repair module.
     /// Typically called when the player collects a keycard object.
     /// </summary>
-    public void GiveKeycard()
+    public void GiveRepairModule()
     {
-        hasKeycard = true;
+        hasRepairModule = true;
     }
 
     /// <summary>
@@ -45,9 +45,9 @@ public class PlayerInventory : MonoBehaviour
     /// Checks if the player currently has the repair module.
     /// </summary>
     /// <returns>True if the player has the repair module.</returns>
-    public bool HasKeycard()
+    public bool HasRepairModule()
     {
-        return hasKeycard;
+        return hasRepairModule;
     }
 
     /// <summary>
