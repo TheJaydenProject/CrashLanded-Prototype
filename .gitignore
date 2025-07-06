@@ -31,3 +31,9 @@
 # Package manager
 Packages/manifest.json
 Packages/packages-lock.json
+
+# Ignore all files inside Textures folder
+Assets/TerrainSampleAssets/Textures/**
+
+# But keep .meta files so Unity doesn't break
+!Assets/TerrainSampleAssets/Textures/**/*.meta
