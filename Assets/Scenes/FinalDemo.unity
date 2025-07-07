@@ -4588,8 +4588,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b94766f775f9f8a409a8d87bb4e2615d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damageAmount: 50
-  damageInterval: 0.5
+  damageAmount: 100
+  damageInterval: 0.1
   waterOverlayPanel: {fileID: 9081278}
 --- !u!65 &437521927
 BoxCollider:
@@ -4611,7 +4611,7 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 50.000004, y: 25, z: 50}
-  m_Center: {x: 0, y: -13, z: 0}
+  m_Center: {x: 0, y: -12, z: 0}
 --- !u!1001 &438294392
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6090,7 +6090,7 @@ PrefabInstance:
     - target: {fileID: -7635826562936255635, guid: ee508db170242934f83ca5de66d8bdd5, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: e8bfe345cc8bdf94085b0a6f293dbf4b, type: 2}
+      objectReference: {fileID: 2100000, guid: 2cd52e5b6567a544db3d5fdeb69ef341, type: 2}
     - target: {fileID: 919132149155446097, guid: ee508db170242934f83ca5de66d8bdd5, type: 3}
       propertyPath: m_Name
       value: base
